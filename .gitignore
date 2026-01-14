@@ -1,0 +1,84 @@
+# Node
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build
+/dist
+/build
+/.next
+/.vercel
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Coverage
+coverage/
+
+# Misc
+*.swp
+*.bak
+*.tmp
+
+# Frontend
+client/node_modules/
+client/dist/
+
+# Backend
+backend/node_modules/
+backend/dist/
+backend/.env
+backend/uploads/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+torch_env/
+
+# ML Model Weights (large files)
+*.pth
+*.pt
+*.h5
+*.onnx
+*.pkl
+*.pickle
+
+# ML Uploads and Results
+ml/uploads/
+ml/results/
+ml/logs/
+ml/data/
+ml/*.db
+
+# Datasets (large folders)
+Malaria-Disease-Detection-Using-Transfer-Learning/
+Platelates/
+GigaPath-AI-WSI-Breast-Cancer-Lesion-Analysis/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Keep test folders
+!TEST/
+!TEST_SAMPLES/
