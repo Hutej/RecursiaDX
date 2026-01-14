@@ -1,0 +1,86 @@
+2026-01-08 13:13:53,891 - __main__ - INFO - [STARTUP] Starting RecursiaDx ML API Server (PyTorch)
+2026-01-08 13:13:53,891 - __main__ - INFO - ==================================================
+2026-01-08 13:13:53,891 - __main__ - INFO - [CHECKS] Performing startup checks...
+2026-01-08 13:13:55,547 - __main__ - INFO - [CPU] Using CPU device
+2026-01-08 13:13:55,548 - __main__ - INFO - [DEVICE] Selected device: cpu
+2026-01-08 13:13:55,548 - __main__ - INFO - [OK] torch is available
+2026-01-08 13:13:56,755 - __main__ - INFO - [OK] torchvision is available
+2026-01-08 13:13:56,756 - __main__ - INFO - [OK] numpy is available
+2026-01-08 13:13:56,784 - __main__ - INFO - [OK] opencv-python is available
+2026-01-08 13:13:56,785 - __main__ - INFO - [OK] Pillow is available
+2026-01-08 13:13:56,903 - __main__ - INFO - [OK] flask is available
+2026-01-08 13:13:56,909 - __main__ - INFO - [OK] flask-cors is available
+2026-01-08 13:14:00,057 - __main__ - INFO - [OK] scikit-learn is available
+2026-01-08 13:14:00,057 - __main__ - INFO - All dependencies are available
+2026-01-08 13:14:00,057 - __main__ - INFO - PyTorch version: 2.9.0+cpu
+2026-01-08 13:14:00,057 - __main__ - INFO - [WARNING] CUDA not available, using CPU
+2026-01-08 13:14:00,059 - models.tumor_predictor - WARNING - Model file not found at D:\programs vs\RecursiaDx\ml\models\best_resnet50_model.pth. Call build_model() to create a new model.
+2026-01-08 13:14:00,244 - models.tumor_predictor - INFO - Model built successfully with backbone wrapper
+2026-01-08 13:14:00,244 - models.tumor_predictor - INFO - Loading model from D:\programs vs\RecursiaDx\ml\models\__pycache__\best_resnet50_model.pth...
+2026-01-08 13:14:00,357 - __main__ - INFO - [OK] Pre-trained model loaded successfully
+2026-01-08 13:14:00,358 - __main__ - INFO - [OK] All startup checks passed
+2026-01-08 13:14:00,358 - __main__ - INFO - [SERVER] Starting API server...
+2026-01-08 13:14:00,378 - utils.data_manager - INFO - Database initialized successfully
+2026-01-08 13:14:00,380 - __main__ - INFO - Starting ML API development server
+2026-01-08 13:14:00,380 - __main__ - INFO - Server will be available at http://0.0.0.0:5000
+2026-01-08 13:14:00,399 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2026-01-08 13:14:00,399 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-08 13:14:25,836 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2026 13:14:25] "GET /health HTTP/1.1" 200 -
+2026-01-08 13:14:26,008 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2026 13:14:26] "[35m[1mPOST /batch_predict HTTP/1.1[0m" 500 -
+2026-01-08 13:16:53,102 - __main__ - INFO - [STARTUP] Starting RecursiaDx ML API Server (PyTorch)
+2026-01-08 13:16:53,102 - __main__ - INFO - ==================================================
+2026-01-08 13:16:53,103 - __main__ - INFO - [CHECKS] Performing startup checks...
+2026-01-08 13:16:54,814 - __main__ - INFO - [CPU] Using CPU device
+2026-01-08 13:16:54,815 - __main__ - INFO - [DEVICE] Selected device: cpu
+2026-01-08 13:16:54,815 - __main__ - INFO - [OK] torch is available
+2026-01-08 13:16:56,115 - __main__ - INFO - [OK] torchvision is available
+2026-01-08 13:16:56,115 - __main__ - INFO - [OK] numpy is available
+2026-01-08 13:16:56,139 - __main__ - INFO - [OK] opencv-python is available
+2026-01-08 13:16:56,140 - __main__ - INFO - [OK] Pillow is available
+2026-01-08 13:16:56,245 - __main__ - INFO - [OK] flask is available
+2026-01-08 13:16:56,249 - __main__ - INFO - [OK] flask-cors is available
+2026-01-08 13:16:57,330 - __main__ - INFO - [OK] scikit-learn is available
+2026-01-08 13:16:57,330 - __main__ - INFO - All dependencies are available
+2026-01-08 13:16:57,330 - __main__ - INFO - PyTorch version: 2.9.0+cpu
+2026-01-08 13:16:57,330 - __main__ - INFO - [WARNING] CUDA not available, using CPU
+2026-01-08 13:16:57,332 - models.tumor_predictor - WARNING - Model file not found at D:\programs vs\RecursiaDx\ml\models\best_resnet50_model.pth. Call build_model() to create a new model.
+2026-01-08 13:16:57,513 - models.tumor_predictor - INFO - Model built successfully with backbone wrapper
+2026-01-08 13:16:57,513 - models.tumor_predictor - INFO - Loading model from D:\programs vs\RecursiaDx\ml\models\__pycache__\best_resnet50_model.pth...
+2026-01-08 13:16:57,575 - __main__ - INFO - [OK] Pre-trained model loaded successfully
+2026-01-08 13:16:57,575 - __main__ - INFO - [OK] All startup checks passed
+2026-01-08 13:16:57,576 - __main__ - INFO - [SERVER] Starting API server...
+2026-01-08 13:16:57,586 - utils.data_manager - INFO - Database initialized successfully
+2026-01-08 13:16:57,588 - __main__ - INFO - [INIT] Initializing all ML models...
+2026-01-08 13:16:57,593 - models.tumor_predictor - WARNING - Model file not found at D:\programs vs\RecursiaDx\ml\models\best_resnet50_model.pth. Call build_model() to create a new model.
+2026-01-08 13:16:57,803 - models.tumor_predictor - INFO - Model built successfully with backbone wrapper
+2026-01-08 13:16:57,803 - models.tumor_predictor - INFO - Loading model from D:\programs vs\RecursiaDx\ml\api\..\models\__pycache__\best_resnet50_model.pth...
+2026-01-08 13:16:58,071 - models.malaria_predictor - INFO - Malaria model built successfully
+2026-01-08 13:16:58,071 - models.malaria_predictor - INFO - Loading malaria model from D:\programs vs\RecursiaDx\ml\api\..\models\__pycache__\best_resnet50_malaria_model.pth...
+2026-01-08 13:16:58,275 - models.platelet_counter - INFO - Found platelet model at: D:\programs vs\RecursiaDx\Platelates\runs\detect\bccd_blood_cells\weights\best.pt
+2026-01-08 13:16:58,275 - models.platelet_counter - INFO - Loading platelet detection model from D:\programs vs\RecursiaDx\Platelates\runs\detect\bccd_blood_cells\weights\best.pt...
+2026-01-08 13:16:58,312 - api.app - INFO - ======================================================================
+2026-01-08 13:16:58,316 - api.app - INFO - ======================================================================
+2026-01-08 13:16:58,317 - __main__ - INFO - Starting ML API development server
+2026-01-08 13:16:58,317 - __main__ - INFO - Server will be available at http://0.0.0.0:5000
+2026-01-08 13:16:58,329 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2026-01-08 13:16:58,329 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-08 13:17:21,936 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2026 13:17:21] "GET /health HTTP/1.1" 200 -
+2026-01-08 13:17:21,951 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2026 13:17:21] "[35m[1mPOST /batch_predict HTTP/1.1[0m" 500 -
+2026-01-08 13:18:26,733 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2026 13:18:26] "GET /health HTTP/1.1" 200 -
+2026-01-08 13:18:26,756 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2026 13:18:26] "[35m[1mPOST /batch_predict HTTP/1.1[0m" 500 -
+2026-01-08 13:20:08,945 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2026 13:20:08] "GET /health HTTP/1.1" 200 -
+2026-01-08 13:20:08,973 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2026 13:20:08] "[35m[1mPOST /batch_predict HTTP/1.1[0m" 500 -
+2026-01-08 13:20:36,048 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2026 13:20:36] "GET /health HTTP/1.1" 200 -
+2026-01-08 13:22:22,549 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2026 13:22:22] "GET /health HTTP/1.1" 200 -
+2026-01-08 13:22:22,581 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2026 13:22:22] "[35m[1mPOST /batch_predict HTTP/1.1[0m" 500 -
+2026-01-08 13:22:57,058 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2026 13:22:57] "GET /health HTTP/1.1" 200 -
+2026-01-08 13:22:57,072 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2026 13:22:57] "[35m[1mPOST /batch_predict HTTP/1.1[0m" 500 -
+2026-01-08 13:44:33,855 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2026 13:44:33] "GET /health HTTP/1.1" 200 -
+2026-01-08 13:44:43,822 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2026 13:44:43] "GET /health HTTP/1.1" 200 -
+2026-01-08 13:45:21,768 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2026 13:45:21] "GET /health HTTP/1.1" 200 -
