@@ -1,0 +1,5 @@
+# This file ensures Git tracks the results/ directory structure.
+#
+# Result files are gitignored. This directory will contain:
+# - results/evaluation/
+# - results/logs/

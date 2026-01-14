@@ -1,0 +1,6 @@
+# This file ensures Git tracks the test_data/ directory structure.
+#
+# Test data outputs are gitignored. This is an isolated sandbox for:
+# - User-uploaded test images
+# - Inference results
+# - Heatmaps and visualizations

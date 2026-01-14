@@ -1,0 +1,5 @@
+# This file ensures Git tracks the checkpoints/ directory
+# even when it's empty.
+#
+# Model weights (.pth files) are gitignored and must be
+# shared separately.

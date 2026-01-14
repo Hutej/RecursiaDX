@@ -1,0 +1,17 @@
+# Minimal requirements for backend deployment
+# PyTorch for model inference
+torch==2.7.1
+torchvision==0.22.1
+
+# Image processing
+pillow
+
+# Backend framework (choose one)
+flask>=3.0.0
+# fastapi>=0.100.0  # Alternative to Flask
+
+# CORS support for API
+flask-cors>=4.0.0
+
+# Optional: for better logging
+gunicorn>=21.0.0  # Production WSGI server

@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Data Files (Large)
+data/*
+!data/.gitkeep
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# WSI Files (Very Large)
+*.svs
+*.tiff
+*.tif
+*.ndpi
+*.mrxs
+*.bif
+*.scn
+
+# Model Checkpoints (Data files only, not trained models)
+# Trained checkpoints in checkpoints/ ARE committed
+*.pt
+*.ckpt
+data/**/*.pth
+data/**/*.pkl
+data/**/*.pickle
+*.pkl
+*.pickle
+
+# Logs
+logs/
+*.log
+runs/
+tensorboard/
+
+# Results
+results/*
+!results/.gitkeep
+outputs/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Test Data (Isolated Sandbox)
+test_data/*
+!test_data/.gitkeep
+!test_data/README.md
+!test_data/input/
+test_data/input/*
+!test_data/input/.gitkeep

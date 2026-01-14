@@ -1,0 +1,8 @@
+# This file ensures Git tracks the data/ directory structure.
+#
+# Data files are gitignored. Place your datasets here locally:
+# - data/raw_wsi/
+# - data/tiles/
+# - data/features/
+# - data/features_topk/
+# - data/labels.csv
