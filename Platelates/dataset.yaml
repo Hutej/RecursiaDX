@@ -1,0 +1,17 @@
+# BCCD Blood Cell Detection Dataset Configuration
+# For YOLOv8 Training
+
+# Dataset paths (relative to where training is run)
+path: ./datasets
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 3
+
+# Class names
+names:
+  0: RBC
+  1: WBC
+  2: Platelets
