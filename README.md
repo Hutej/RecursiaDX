@@ -13,7 +13,7 @@ RecursiaDx is a comprehensive medical image analysis platform that integrates st
 ## Key Features
 
 ✅ **Multi-Modal Analysis**
-- Tissue tumor detection (GigaPath-based AttentionMIL)
+- Tissue tumor detection (GigaPath-based AttentionML)
 - Malaria parasite detection (Transfer Learning)
 - Platelet counting (YOLO object detection)
 
