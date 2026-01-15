@@ -35,7 +35,9 @@ class MalariaPredictor:
         if model_path is None:
             # Look in multiple possible locations
             possible_paths = [
-                os.path.join(os.path.dirname(__file__), '__pycache__', 'best_resnet50_malaria_model.pth'),
+                # Absolute path from project root
+                os.path.join(os.path.dirname(__file__), '..', '..', 'Malaria-Disease-Detection-Using-Transfer-Learning', 'InceptionV3_Malaria_PyTorch.pth'),
+                # Direct relative path
                 os.path.join('Malaria-Disease-Detection-Using-Transfer-Learning', 'InceptionV3_Malaria_PyTorch.pth')
             ]
             for path in possible_paths:

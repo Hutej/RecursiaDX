@@ -124,7 +124,7 @@ def initialize_models():
         # INITIALIZE MALARIA DETECTION MODEL (for blood smear images)
         # ===================================================
         try:
-            malaria_model_path = os.path.join(os.path.dirname(__file__), '..', 'models', '__pycache__', 'best_resnet50_malaria_model.pth')
+            malaria_model_path = os.path.join(os.path.dirname(__file__), '..', '..', 'Malaria-Disease-Detection-Using-Transfer-Learning', 'InceptionV3_Malaria_PyTorch.pth')
             malaria_predictor = MalariaPredictor(model_path=malaria_model_path)
             if malaria_predictor.model is not None:
                 logger.info("✅ Malaria detection model loaded successfully")
